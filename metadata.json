@@ -1,0 +1,7 @@
+{
+  "name": "Cetak Resi J&T Express",
+  "description": "Aplikasi Pembuat dan Pencetak Resi J&T Express (100x150 mm) dengan mode Manual dan Massal.",
+  "capabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

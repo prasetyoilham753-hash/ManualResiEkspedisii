@@ -1,0 +1,18 @@
+@import "tailwindcss";
+
+:root {
+  --ink: #1a2e22;
+  --paper: #f6f3ec;
+  --card: #ffffff;
+  --line: #d8d2c2;
+  --accent: #c1481d;
+  --muted: #6b7368;
+}
+
+body {
+  margin: 0;
+  background: var(--paper);
+  color: var(--ink);
+  font-family: "Inter", "Segoe UI", Arial, sans-serif;
+  line-height: 1.4;
+}

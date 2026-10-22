@@ -1,11 +1,9 @@
-<div align="center">
+# Cetak Resi Ekspedisi (J&T, JNE, SiCepat, Anteraja, Shopee Xpress, Ninja)
 
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+Aplikasi web modern berbasis React dan TypeScript untuk membuat dan mencetak resi pengiriman berbagai ekspedisi format 100x150 mm (PDF).
 
-  <h1>Built with AI Studio</h2>
-
-  <p>The fastest path from prompt to production with Gemini.</p>
-
-  <a href="https://aistudio.google.com/apps">Start building</a>
-
-</div>
+## Fitur Utama
+1. **Pilihan Ekspedisi**: Mendukung J&T Express, JNE Express, SiCepat Ekspres, Anteraja, Shopee Xpress, dan Ninja Xpress dengan output resi yang menyesuaikan identitas ekspedisi masing-masing.
+2. **Input Manual**: Buat dan unduh satu resi pengiriman secara instan dalam format PDF.
+3. **Input Massal**: Tambahkan beberapa pesanan ke dalam antrean, lalu unduh sekaligus sebagai dokumen PDF multi-halaman.
+4. **Desain Profesional**: Format resi standar 100x150 mm lengkap dengan informasi penerima, pengirim, jenis pembayaran (COD / Non COD), jumlah pesanan, dan tanggal.
