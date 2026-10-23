@@ -75,9 +75,9 @@ interface ResiData {
   tanggal: string;
 }
 
-const DEFAULT_NAMA_PENGIRIM = "Kapuyuak Island";
-const DEFAULT_HP_PENGIRIM = "+62 819-1100-8025";
-const DEFAULT_ALAMAT_PENGIRIM = "JAWA BARAT, KOTA DEPOK, SUKMAJAYA, 16412, Perumahan Mutiara Buana, Jalan Lap Member Blok C2, No. C2, Sukmajaya";
+const DEFAULT_NAMA_PENGIRIM = "";
+const DEFAULT_HP_PENGIRIM = "";
+const DEFAULT_ALAMAT_PENGIRIM = "";
 
 export default function App() {
   const [mode, setMode] = useState<'manual' | 'massal' | null>(null);
@@ -411,7 +411,7 @@ export default function App() {
               type="text"
               value={globalNamaPengirim}
               onChange={(e) => setGlobalNamaPengirim(e.target.value)}
-              placeholder="mis. Kapuyuak Island"
+              placeholder="mis. Bintang Prasetyo"
               className="w-full p-[9px_10px] border border-[#d8d2c2] rounded-[2px] text-[13.5px] bg-white text-[#1a2e22] focus:outline-2 focus:outline-[#c1481d] mb-3"
             />
 
@@ -422,7 +422,7 @@ export default function App() {
               type="text"
               value={globalHpPengirim}
               onChange={(e) => setGlobalHpPengirim(e.target.value)}
-              placeholder="mis. +62 819-1100-8025"
+              placeholder="mis. 08999007997"
               className="w-full p-[9px_10px] border border-[#d8d2c2] rounded-[2px] text-[13.5px] bg-white text-[#1a2e22] focus:outline-2 focus:outline-[#c1481d] mb-3"
             />
 
